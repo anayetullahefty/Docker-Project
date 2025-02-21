@@ -5,6 +5,23 @@ It's a PHP, MySQL, Jquery ChatBot For My University RUET
 
 <a href="http://ruetchatbot.epizy.com">RUET ChatBot</a>
 
+This project is a chatbot system built using PHP, MySQL, and jQuery for RUET. Below are the steps to set up the project using Docker.
+
+---
+### 🚀 Step 1: Clone the Repository
+```
+
+sh
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+###  Build the Docker Image
+`docker build -t chatbot-php . `
+
+
+
+
+
 
 # Install
 ```
