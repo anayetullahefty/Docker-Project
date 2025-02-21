@@ -32,8 +32,18 @@ COPY . /var/www/html/
 EXPOSE 80
 ```
 
-### Step 3:  Build the Docker Image
-`docker build -t chatbot-image . # Build a Docker image named "chatbot-image" using the Dockerfile in the current directory (.)`
+### Step 3:  Build and Run the Docker Image
+```
+# Build a Docker image named "chatbot-image" using the Dockerfile in the current directory (.)
+docker build -t chatbot-image . 
+
+#Check The builded images by running this command
+docker images
+
+## Run a container named "chatbotapp" from "chatbot-image", mapping port 80 of the container to port 80 of the host in detached mode (-d).
+docker run -d -p 80:80 --name chatbotapp chatbot-image
+
+```
 ### Step :
 ### Step :
 ### Step :
