@@ -13,7 +13,7 @@ This project is a chatbot system built using PHP, MySQL, and jQuery for RUET. Be
 git clone https://github.com/anayetullahefty/Docker-Project.git
 cd RUET-ChatBot-master
 ```
-### Step 2: Create/Edit a Dockerfile in your Project Directory
+### 🐳 Step 2: Create/Edit a Dockerfile in your Project Directory
 If you already have a Dockerfile, ensure it contains the following setup:
 ```
 # Use the official PHP 7.4 image with Apache pre-installed
@@ -31,40 +31,58 @@ COPY . /var/www/html/
 # Expose port 80 to allow external access to the web server
 EXPOSE 80
 ```
-### 🏗️ Step 4:  Create a docker Network
+### 🌐 Step 3:  Create a docker Network
+```
+docker network create chatbot #create a network named chatbot
+docker network ls #Check available Docker networks
+docker network inspect chatbot #Inspect network details  
+```
+### 🏗️ Step 4:  Build and Run the WebApp Docker image
+```
+#Build the Image
+docker build -t chatbot-image . #Build a Docker image named "chatbot-image" using the Dockerfile in the current directory.
 
-### 🏗️ Step 3:  Build and Run the Docker Image
-```
-docker network create chatbot #create a network name chatbot
-docker network ls # Check docker network
-docker network inspect chatbot
-```
-```
-```
-# Build a Docker image named "chatbot-image" using the Dockerfile in the current directory (.)
-docker build -t chatbot-image . 
-
-#Check The built images by running this command
+#Check built images 
 docker images
 
-## Run a container named "chatbotapp" from "chatbot-image", mapping port 80 of the container to port 80 of the host in detached mode (-d).
-docker run -d -p 80:80 --name chatbotapp chatbot-image
+#Run the container  
+docker run -d -p 5400:80 --name chatbotapp --network chatbot chatbot-image
+# Runs "chatbotapp" from "chatbot-image", mapping port 5400 on the host to port 80 inside the container  
+
 ```
-### Step :
-### Step :
-### Step :
-### Step :
-
-
-
-
-
-# Install
+### 🏗️ Step 5:  Build and Run Mysql Container
 ```
-From Database Folder Import chat.sql into your database
-Run Your Server
-Type localhost/chatbot/chatbot.php on your Browser
+#Pull MySQL image  
+docker pull mysql:latest
+
+#Run MySQL container on port 3306 with defined network, password & database
+docker run -d -p 3306:3306 --name db --network chatbot -e MYSQL_ROOT_PASSWORD=1test2 -e MYSQL_DATABASE=chat mqsql
+
+#Check running containers 
+docker ps
 ```
+### 🛠️ Step 6:  Access MySQL & Import Database
+```
+#Access the database container shell
+docker exec -it db bash
+
+#Login to MySQL as root user
+mysql -u root -p
+
+#After logging in to MySQL:
+<b> # Manually import the data using the chat.sql file located in the Database folder <b>
+Execute the SQL Quries
+
+```
+
+### 🌍 Step 7: Access the WebApp
+
+```
+🔗 http://localhost:5400/ (If running locally)
+🔗 http://your-server-ip:5400/ (If running on a remote server)
+```
+## 🎉 Your chatbot should now be live! 🚀
+
 
 # DevOps
 ## Deploy in Kubernetes
