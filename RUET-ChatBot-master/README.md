@@ -10,7 +10,7 @@ This project is a chatbot system built using PHP, MySQL, and jQuery for RUET. Be
 ---
 ### 🚀 Step 1: Clone the Repository
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/anayetullahefty/Docker-Project.git
 cd RUET-ChatBot-master
 ```
 ### Step 2: Create/Edit a Dockerfile in your Project Directory
@@ -31,9 +31,15 @@ COPY . /var/www/html/
 # Expose port 80 to allow external access to the web server
 EXPOSE 80
 ```
+### 🏗️ Step 4:  Create a docker Network
 
 ### 🏗️ Step 3:  Build and Run the Docker Image
-
+```
+docker network create chatbot #create a network name chatbot
+docker network ls # Check docker network
+docker network inspect chatbot
+```
+```
 ```
 # Build a Docker image named "chatbot-image" using the Dockerfile in the current directory (.)
 docker build -t chatbot-image . 
