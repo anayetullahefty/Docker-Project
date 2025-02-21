@@ -73,8 +73,8 @@ docker exec -it db bash
 mysql -u root -p
 
 #After logging in to MySQL:
-<b> Manually import the data using the chat.sql file located in the Database folder <b>
-Execute the SQL Quries
+#Manually import the data using the chat.sql file located in the Database folder
+#Execute the SQL Queries
 
 ```
 
@@ -89,8 +89,4 @@ Execute the SQL Quries
 # DevOps
 ## Deploy in Kubernetes
 Watch this Video: https://www.youtube.com/watch?v=aG3Hq4KrvUI
-
-
-
-
 
