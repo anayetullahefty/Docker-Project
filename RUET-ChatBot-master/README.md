@@ -1,9 +1,7 @@
-# ChatBot Project
+## ChatBot Project
 It's a PHP, MySQL, Jquery ChatBot  Project
 
-### Demo
-
-<a href="http://ruetchatbot.epizy.com">RUET ChatBot</a>
+### Demo <a href="http://ruetchatbot.epizy.com">RUET ChatBot</a>
 
 This project is a chatbot system built using PHP, MySQL, and jQuery for RUET. Below are the steps to set up the project using Docker.
 
@@ -33,9 +31,14 @@ EXPOSE 80
 ```
 ### 🌐 Step 3:  Create a docker Network
 ```
-docker network create chatbot #create a network named chatbot
-docker network ls #Check available Docker networks
-docker network inspect chatbot #Inspect network details  
+#create a network named chatbot
+docker network create chatbot
+
+#Check available Docker networks
+docker network ls
+
+#Inspect network details  
+docker network inspect chatbot 
 ```
 ### 🏗️ Step 4:  Build and Run the WebApp Docker image
 ```
@@ -76,7 +79,6 @@ Execute the SQL Quries
 ```
 
 ### 🌍 Step 7: Access the WebApp
-
 ```
 🔗 http://localhost:5400/ (If running locally)
 🔗 http://your-server-ip:5400/ (If running on a remote server)
