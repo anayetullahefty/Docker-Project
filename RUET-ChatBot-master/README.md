@@ -1,7 +1,7 @@
-# RUET-ChatBot
-It's a PHP, MySQL, Jquery ChatBot For My University RUET
+# ChatBot Project
+It's a PHP, MySQL, Jquery ChatBot  Project
 
-# Demo
+### Demo
 
 <a href="http://ruetchatbot.epizy.com">RUET ChatBot</a>
 
@@ -32,17 +32,17 @@ COPY . /var/www/html/
 EXPOSE 80
 ```
 
-### Step 3:  Build and Run the Docker Image
+###🏗️ Step 3:  Build and Run the Docker Image
+
 ```
 # Build a Docker image named "chatbot-image" using the Dockerfile in the current directory (.)
 docker build -t chatbot-image . 
 
-#Check The builded images by running this command
+#Check The built images by running this command
 docker images
 
 ## Run a container named "chatbotapp" from "chatbot-image", mapping port 80 of the container to port 80 of the host in detached mode (-d).
 docker run -d -p 80:80 --name chatbotapp chatbot-image
-
 ```
 ### Step :
 ### Step :
