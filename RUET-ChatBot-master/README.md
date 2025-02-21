@@ -59,7 +59,7 @@ docker run -d -p 5400:80 --name chatbotapp --network chatbot chatbot-image
 docker pull mysql:latest
 
 #Run MySQL container on port 3306 with defined network, password & database
-docker run -d -p 3306:3306 --name db --network chatbot -e MYSQL_ROOT_PASSWORD=1test2 -e MYSQL_DATABASE=chat mqsql
+docker run -d -p 3306:3306 --name db --network chatbot -e MYSQL_ROOT_PASSWORD=1test2 -e MYSQL_DATABASE=chat mysql
 
 #Check running containers 
 docker ps
