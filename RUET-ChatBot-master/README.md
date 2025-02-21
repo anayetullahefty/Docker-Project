@@ -86,7 +86,6 @@ mysql -u root -p
 ## 🎉 Your chatbot should now be live! 🚀
 
 
-# DevOps
-## Deploy in Kubernetes
+#### Deploy in Kubernetes
 Watch this Video: https://www.youtube.com/watch?v=aG3Hq4KrvUI
 
