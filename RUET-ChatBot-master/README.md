@@ -32,7 +32,7 @@ COPY . /var/www/html/
 EXPOSE 80
 ```
 
-###🏗️ Step 3:  Build and Run the Docker Image
+### 🏗️ Step 3:  Build and Run the Docker Image
 
 ```
 # Build a Docker image named "chatbot-image" using the Dockerfile in the current directory (.)
