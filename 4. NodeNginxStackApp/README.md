@@ -15,21 +15,21 @@ NodeNginxStack is a Dockerized full-stack web application that integrates a Node
 #### 📂 Project Structure
 ```
 NodeNginxStackAPP/  
-├── frontend/      <!-- Frontend source code -->
-│   ├── package.json      <!-- Frontend dependencies -->
-│   ├── package-lock.json      <!-- Ensures consistent installs -->
-│   ├── src/      <!-- Frontend source code (components, logic) -->
-│   ├── public/      <!-- Static files (images, icons, etc.) -->
-│   └── ...      <!-- Other frontend files -->
-├── backend/      <!-- Backend source code -->
-│   ├── package.json      <!-- Backend dependencies -->
-│   ├── package-lock.json      <!-- Ensures consistent installs -->
-│   ├── server.js      <!-- Main backend file (Express server) -->
-│   ├── user_list.txt      <!-- Sample data for testing -->
-│   └── ...      <!-- Other backend files (routes, models, etc.) -->
-├── nginx.conf      <!-- Nginx configuration (reverse proxy) -->
-├── Dockerfile      <!-- Multi-stage Docker build setup -->
-└── README.md      <!-- Project documentation (info, setup, usage) -->
+├── frontend/               <!-- Frontend source code -->
+│   ├── package.json        <!-- Frontend dependencies -->
+│   ├── package-lock.json   <!-- Ensures consistent installs -->
+│   ├── src/                <!-- Frontend source code (components, logic) -->
+│   ├── public/             <!-- Static files (images, icons, etc.) -->
+│   └── ...                 <!-- Other frontend files -->
+├── backend/                <!-- Backend source code -->
+│   ├── package.json        <!-- Backend dependencies -->
+│   ├── package-lock.json   <!-- Ensures consistent installs -->
+│   ├── server.js           <!-- Main backend file (Express server) -->
+│   ├── user_list.txt       <!-- Sample data for testing -->
+│   └── ...                 <!-- Other backend files (routes, models, etc.) -->
+├── nginx.conf              <!-- Nginx configuration (reverse proxy) -->
+├── Dockerfile              <!-- Multi-stage Docker build setup -->
+└── README.md               <!-- Project documentation (info, setup, usage) -->
 ```
 ---
 ### 🚀 Getting Started
