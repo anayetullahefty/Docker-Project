@@ -5,10 +5,10 @@
 NodeNginxStack is a Dockerized full-stack web application that integrates a Node.js backend and a frontend (React/Vue/Angular) served via Nginx. The project utilizes multi-stage builds to optimize image size and performance.
 
 #### Features
-1. **Frontend**: Built with Node.js and served via Nginx
-2. **Backend**: Express.js (or any Node.js framework) running on port 5000
-3. **Multi-stage Docker build**: Optimizes final image size
-4. **Nginx**: Used as a reverse proxy
+- **Frontend**: Built with Node.js and served via Nginx
+-  **Backend**: Express.js (or any Node.js framework) running on port 5000
+-   **Multi-stage Docker build**: Optimizes final image size
+-     *Nginx**: Used as a reverse proxy
 5. **Efficient dependency management**
 
 
