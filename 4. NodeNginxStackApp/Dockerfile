@@ -1,3 +1,5 @@
+#Stage 1: Build Frontend and Backend
+
 # Use a Node.js base image for building the frontend and backend
 FROM node:23 AS build-stage
 
@@ -21,6 +23,7 @@ RUN npm install
 
 # Copy the backend source files
 COPY backend/ .
+
 
 # Stage 2: Set up the Nginx server for the frontend and Node server for backend
 FROM nginx:alpine AS production-stage
