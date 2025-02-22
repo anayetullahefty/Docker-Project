@@ -2,7 +2,7 @@
 
 #### 🌟 Overview
 
-NodeNginxStack is a Dockerized full-stack web application that integrates a Node.js backend and a frontend (React/Vue/Angular) served via Nginx. The project utilizes multi-stage builds to optimize image size and performance.
+NodeNginxStack is a Dockerized full-stack web application that integrates a Node.js backend and a frontend (React/Vue/Angular) served via Nginx. The project utilizes **multi-stage** builds to optimize image size and performance.
 
 #### ✨ Features
 - **Frontend**: Built with Node.js and served via Nginx
