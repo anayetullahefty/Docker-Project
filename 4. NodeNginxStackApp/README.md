@@ -36,7 +36,8 @@ NodeNginxStackAPP/
 
 #### ✅ Prerequisites
 
-Ensure you have the following installed: [🐳 Docker](https://www.docker.com/)
+Ensure you have the following installed: <a href="https://www.docker.com/" style="text-decoration: none;">🐳 Docker</a>
+
 
 ### Build and Run the Project
 
