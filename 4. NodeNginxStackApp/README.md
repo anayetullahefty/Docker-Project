@@ -43,7 +43,7 @@ Ensure you have the following installed: [🐳 Docker](https://www.docker.com/)
 #### 🚀 Step 1: Clone the Repository
 ```
 git clone https://github.com/anayetullahefty/Docker-Project.git
-cd 4. NodeNginxStackApp
+cd '4. NodeNginxStackApp'
 ```
 #### 🐳 Step 2: Create/Edit a Dockerfile in your Project Directory
 If you already have a Dockerfile, ensure it contains the following setup:
