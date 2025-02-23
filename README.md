@@ -21,6 +21,26 @@ This repository contains multiple Docker projects, each focusing on different as
 
 ## 📂 Repository Structure <a name="repository-structure"></a>
 
+```
+docker-project/
+├── project-1/ # Folder for Project 1
+│ ├── Dockerfile # Dockerfile for Project 1
+│ ├── docker-compose.yml # Docker Compose file for Project 1
+│ ├── src/ # Source code for Project 1
+│ └── README.md # Documentation for Project 1
+├── project-2/ # Folder for Project 2
+│ ├── Dockerfile # Dockerfile for Project 2
+│ ├── docker-compose.yml # Docker Compose file for Project 2
+│ ├── src/ # Source code for Project 2
+│ └── README.md # Documentation for Project 2
+├── project-3/ # Folder for Project 3
+│ ├── Dockerfile # Dockerfile for Project 3
+│ ├── docker-compose.yml # Docker Compose file for Project 3
+│ ├── src/ # Source code for Project 3
+│ └── README.md # Documentation for Project 3
+├── .gitignore # Git ignore file
+└── README.md # Main README file for the repository
+```
 ## 📜 Project List <a name="project-list"></a>
 
 Below is a list of projects currently available in this repository:
