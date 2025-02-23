@@ -8,7 +8,7 @@ NodeNginxStack is a Dockerized full-stack web application that integrates a Node
 - **Frontend**: Built with Node.js and served via Nginx
 - **Backend**: Express.js (or any Node.js framework) running on port 5000
 - **Multi-stage Docker build**: Optimizes final image size
-- *Nginx**: Used as a reverse proxy
+- **Nginx**: Used as a reverse proxy
 - **Efficient dependency management**
 
 
@@ -143,11 +143,11 @@ docker run --network nodenginxstack-net -v nodenginxstack-Vol/app/backend -p 80:
 ```
 #### 🎯 Step 6:
 1. Check Running Containers:
-` docker ps `
+``` docker ps ```
 2. Access Logs:
-` docker logs nodenginxstack-container `
+``` docker logs nodenginxstack-container ```
 3. Connect to Container:
-` docker exec -it nodenginxstack-container sh `
+``` docker exec -it nodenginxstack-container sh ```
 
 ### 🌍 Step 7: Access the WebApp
 ```
