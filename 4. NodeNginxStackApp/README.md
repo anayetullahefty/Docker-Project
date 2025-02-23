@@ -104,19 +104,42 @@ EXPOSE 80 5000
 CMD ["sh", "-c", "node /app/backend/server.js & nginx -g 'daemon off;'"]
 ```
 
+#### 🌐 Step 3: Create a docker Network
+```
+#create a network named nodenginxstack-net
+docker network create nodenginxstack-net
 
+#Check available Docker networks
+docker network ls
 
-#### 🏗️ Step 4:  Build and Run the WebApp nodenginxstack apps image
+#Inspect network details  
+docker network inspect nodenginxstack-net 
+```
+#### 📦 Step 4: Create a Volume
+```
+#create a Volume named nodenginxstack-Vol
+docker volume create nodenginxstack-Vol
+
+#Check available Docker networks
+docker volume ls
+
+#Inspect Volume details  
+docker network inspect nodenginxstack-Vol
+```
+Mounting the Volume:
+- The -v nodenginxstack-Vol:/app/backend option ensures that the backend's data is stored persistently.
+- This means any changes inside /app/backend in the container will persist in the volume even if the container is removed
+#### 🏗️ Step 5:  Build and Run the WebApp nodenginxstack apps image
 
 ```
 #Build the Image
-docker build -t nodenginxstack . `
+docker build -t nodenginxstack-app . 
 
 #Check built images 
 docker images
 
 #Run the Container
-docker run -p 80:80 -p 5000:5000 nodenginxstack
+docker run --network nodenginxstack-net -v nodenginxstack-Vol/app/backend -p 80:80 -p 5000:5000 -p 80:80 nodenginxstack-app
 ```
 
 ### 🌍 Step 7: Access the WebApp
