@@ -6,9 +6,9 @@ Welcome to the **Docker Project Repository**! 🚀 This repository is a **collec
 
 - [About This Repository](#about-this-repository)
 - [Repository Structure](#repository-structure)
+- [Project List](#project-list)
 - [Each Project Contains](#each-project-contains)
 - [Technologies & Tools Used](#technologies--tools-used)
-- [Project List](#project-list)
 - [Getting Started](#getting-started)
 - [Future Updates](#future-updates)
 - [Contributing](#contributing)
@@ -21,28 +21,7 @@ This repository contains multiple Docker projects, each focusing on different as
 
 ## 📂 Repository Structure <a name="repository-structure"></a>
 
-
-
-## 📁 Each Project Contains <a name="each-project-contains"></a>
-- **`Dockerfile`**: Defines how the container is built.
-- **`docker-compose.yml`** *(if needed)*: For multi-container applications.
-- **`README.md`**: Project-specific documentation.
-- **Project-specific files**: Source code, configurations, environment variables, etc.
-
-## 🛠️ Technologies & Tools Used <a name="technologies--tools-used"></a>
-
-This repository covers a wide range of **Docker-related topics**, including:
-
-- **Docker** 🐳 – Containerization & Image Building
-- **Docker Compose** 📦 – Managing Multi-Container Applications
-- **CI/CD with Docker** 🚀 – Automating Builds & Deployments
-- **Security Best Practices** 🔐 – Securing Containers & Images
-- **Networking & Volumes** 🌐 – Persistent Storage & Communication
-- **Cloud Deployments** ☁️ – Running Docker on AWS, Azure, GCP
-- **Monitoring & Logging** 📊 – Managing Container Health & Logs
-
-
-## Project List <a name="project-list"></a>
+## 📜 Project List <a name="project-list"></a>
 
 Below is a list of projects currently available in this repository:
 
@@ -63,7 +42,26 @@ Below is a list of projects currently available in this repository:
 
 *(Add more projects as you create them)*
 
-## Getting Started <a name="getting-started"></a>
+## 📑 Each Project Contains <a name="each-project-contains"></a>
+- **`Dockerfile`**: Defines how the container is built.
+- **`docker-compose.yml`** *(if needed)*: For multi-container applications.
+- **`README.md`**: Project-specific documentation.
+- **Project-specific files**: Source code, configurations, environment variables, etc.
+
+## 🛠️ Technologies & Tools Used <a name="technologies--tools-used"></a>
+
+This repository covers a wide range of **Docker-related topics**, including:
+
+- **Docker** 🐳 – Containerization & Image Building
+- **Docker Compose** 📦 – Managing Multi-Container Applications
+- **CI/CD with Docker** 🚀 – Automating Builds & Deployments
+- **Security Best Practices** 🔐 – Securing Containers & Images
+- **Networking & Volumes** 🌐 – Persistent Storage & Communication
+- **Cloud Deployments** ☁️ – Running Docker on AWS, Azure, GCP
+- **Monitoring & Logging** 📊 – Managing Container Health & Logs
+
+
+## 🚀 Getting Started <a name="getting-started"></a>
 
 To get started with any of the projects in this repository, follow these steps:
 
@@ -94,10 +92,14 @@ I will be adding more projects, including:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-If you have suggestions or improvements, feel free to **open an issue** or submit a **pull request**.
+Feel free to **fork** this repository, open issues, or submit pull requests if you have suggestions, improvements, or additional projects to contribute.
 
 ---
-## Contact With Me
-
-Stay tuned for more exciting Docker projects! 🚀
+## 📧 Contact With Me <a name="contact-with-me"></a>
+<p dir="auto"><a href="https://www.facebook.com/mohammad.a.u.efty/" rel="nofollow"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="facebook" height="40" style="max-width: 100%;"></a>
+  <a href="https://www.instagram.com/mohammad_a_u_efty/" rel="nofollow"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="instagram" height="40" style="max-width: 100%;"></a>  
+  <a href="https://twitter.com/anayet_efty" rel="nofollow">
+  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="github" height="40" style="max-width: 100%;"></a>
+  <a href="https://www.linkedin.com/in/mohammad-a-u-efty/" rel="nofollow"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="40" style="max-width: 100%;"></a></p>
+**Stay tuned for more Docker exciting projects! 🚀 If you find this repository helpful, don't forget to start ⭐ the repo!**
 
