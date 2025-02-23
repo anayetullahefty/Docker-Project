@@ -75,10 +75,10 @@ To get started with any of the projects in this repository, follow these steps:
    ```bash
    cd <Select One Project>
 3. **Follow the Instructions:**
-  - Each project folder contains its own README.md file with detailed instructions on how to set up and run the project.
+   -  Each project folder contains its own README.md file with detailed instructions on how to set up and run the project.
 
 4. **Run the Docker Containers:**
-  - Use the provided docker-compose.yml or Dockerfile to build and run the containers.
+   -  Use the provided docker-compose.yml or Dockerfile to build and run the containers.
 
 ## 📅 Future Updates <a name="future-updates"></a>
 
@@ -97,7 +97,7 @@ Feel free to **fork** this repository, open issues, or submit pull requests if y
 ---
 ## 📧 Contact With Me <a name="contact-with-me"></a>
 <p dir="auto"><a href="https://www.facebook.com/mohammad.a.u.efty/" rel="nofollow"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="facebook" height="40" style="max-width: 100%;"></a>
-  <a href="https://www.instagram.com/mohammad_a_u_efty/" rel="nofollow"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="instagram" height="40" style="max-width: 100%;"></a>  
+  <a href="https://github.com/anayetullahefty" rel="nofollow"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/refs/heads/master/src/images/icons/Social/github.svg" alt="instagram" height="40" style="max-width: 100%;"></a>  
   <a href="https://twitter.com/anayet_efty" rel="nofollow">
   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="github" height="40" style="max-width: 100%;"></a>
   <a href="https://www.linkedin.com/in/mohammad-a-u-efty/" rel="nofollow"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="40" style="max-width: 100%;"></a></p>
