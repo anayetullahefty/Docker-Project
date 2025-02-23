@@ -141,6 +141,13 @@ docker images
 #Run the Container
 docker run --network nodenginxstack-net -v nodenginxstack-Vol/app/backend -p 80:80 -p 5000:5000 -p 80:80 nodenginxstack-app
 ```
+#### 🎯 Step 6:
+1. Check Running Containers:
+` docker ps `
+2. Access Logs:
+` docker logs nodenginxstack-container `
+3. Connect to Container:
+` docker exec -it nodenginxstack-container sh `
 
 ### 🌍 Step 7: Access the WebApp
 ```
